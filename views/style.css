@@ -1,0 +1,87 @@
+body {
+    display: flex-direction column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    }
+  
+  
+  nav ul{display: flex;
+      align-items:center;
+      gap: 30px;
+      justify-content: space-between;
+      color: #f9f9f9;
+      
+  
+  }
+  
+  main  {align-items: center;
+  text-align: center;
+  width: 100%;
+  color: rgb(0, 0, 0);}
+  
+  
+  
+  
+  footer {align-items: center;
+          text-align: center;
+      color: white;}
+
+  
+  form {
+      max-width: 400px; 
+      margin: auto; 
+      padding: 20px;
+      background: #0e0d0d; 
+      
+      
+    }
+    label {
+      display: block; 
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    input, select, textarea {
+      width: 70%;
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    
+    .comision {color: rgb(184, 160, 160);
+              padding: 10px;
+              font-family: Arial, Helvetica, sans-serif;
+              font-style: oblique;
+              font-size: x-large;
+    }
+  
+    .tienda-ropa {
+      display: flex;
+      align-items: last baseline;
+      justify-content: space-evenly;
+      padding: 20px;
+      }
+
+
+
+
+
+.comision-directiva {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 50%;
+    margin: auto;
+    
+     }
+  
+    .comision-directiva div {
+      background-color: rgb(245, 105, 105);
+      text-align: center;
+      border: 1px solid rgb(121, 5, 5);
+      padding: 10px;
+      
+    }

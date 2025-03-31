@@ -1,0 +1,20 @@
+{
+  "name": "el-club-de-pueblo-mas-grande-del-mundo-cb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FacundoVictoria/Juarense.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FacundoVictoria/Juarense/issues"
+  },
+  "homepage": "https://github.com/FacundoVictoria/Juarense#readme",
+  "description": ""
+}

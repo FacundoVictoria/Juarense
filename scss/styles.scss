@@ -222,7 +222,7 @@ h1 {
   @extend .extend-h1
 }
 
-// mixin //
+// // // // mixin //
 @mixin estilo-h2 ($color, $fuente, $alineacion) {
   color: $color;
   font-family: $fuente;
@@ -233,4 +233,25 @@ h1 {
 
 h2 { 
   @include estilo-h2(red, 'Arial, sans-serif', center );
+}
+
+// anidación // 
+.anidacion-tienda {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #c00; // rojo rojinegro
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }

@@ -185,21 +185,41 @@ h2 {
 }
 
 .anidacion-tienda {
-  padding: 1rem;
-  background-color: #030202;
+  padding: 2rem;
+  background-color: #f9f9f9;
   text-align: center;
 }
 .anidacion-tienda h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: rgb(255, 255, 255);
+  color: #c00;
   margin-bottom: 1rem;
 }
 .anidacion-tienda p {
   font-size: 1.2rem;
-  color: #f70000;
+  color: #444;
   max-width: 700px;
   margin: 0 auto;
+}
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-500px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.anidacion-tienda {
+  animation: fadeSlide 2s ease-in-out;
+}
+.anidacion-tienda h1 {
+  animation: fadeSlide 1.2s ease-in-out;
+}
+.anidacion-tienda p {
+  animation: fadeSlide 1.5s ease-in-out;
 }
 
 /*# sourceMappingURL=styles.css.map */

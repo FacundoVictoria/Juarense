@@ -216,8 +216,21 @@ h2 {
   font-weight: bold;
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #111; }
+  color: rgb(59, 2, 2) }
 
 h1 {
   @extend .extend-h1
+}
+
+// mixin //
+@mixin estilo-h2 ($color, $fuente, $alineacion) {
+  color: $color;
+  font-family: $fuente;
+  text-align: $alineacion;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+h2 { 
+  @include estilo-h2(red, 'Arial, sans-serif', center );
 }

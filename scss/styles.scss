@@ -1,13 +1,4 @@
-// variables para el form //
-$color-primary: #000000;
-$color-secondary: #343a40;
-$color-light: #e9edf1;
-$color-text: #212529;
-$color-input-border: lighten($color-secondary, 20%);
-$radius: 0.5rem;
-$padding-form: 2rem;
-$shadow-form: 0 4px 12px rgba(0, 0, 0, 0.1);
-
+@import "variable"
 
 .comision-directiva {
   display: grid;
@@ -23,9 +14,9 @@ $shadow-form: 0 4px 12px rgba(0, 0, 0, 0.1);
 
   div {
     padding: 0.75rem;
-    background-color: #8B0000; 
+    background-color: rgba($color-primary, 0.25); 
     color: white;
-    border: 2px solid #600000; 
+    border: 2px solid $color-secondary; 
     border-radius: 6px;
   }
 }

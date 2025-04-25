@@ -1,4 +1,6 @@
-@import "variable"
+@import "variable";
+@import "extend";
+@import "mixin";
 
 .comision-directiva {
   display: grid;
@@ -201,26 +203,13 @@ h2 {
   }
 }
 
-// extend //
- .extend-h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: rgb(59, 2, 2) }
+
 
 h1 {
   @extend .extend-h1
 }
 
-// // // // mixin //
-@mixin estilo-h2 ($color, $fuente, $alineacion) {
-  color: $color;
-  font-family: $fuente;
-  text-align: $alineacion;
-  font-size: 2rem;
-  margin: 1.5rem 0;
-}
+
 
 h2 { 
   @include estilo-h2(red, 'Arial, sans-serif', center );
